@@ -57,6 +57,10 @@ folder: part_01_understanding_redux
 
 Live Link: http://www.claudegauthier.net/tutorials/react-redux/part_01_understanding_redux/
 
+Live Link: [Link](http://www.claudegauthier.net/tutorials/react-redux/part_01_understanding_redux/ "title" target="_blank")
+
+
+
 This gives you a high level understanding of Redux, we take a sample React app based on create-react-app and create a very basic but comprehensive scenario were you:
 
 1) create a redux store
