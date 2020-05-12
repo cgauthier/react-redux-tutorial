@@ -1,11 +1,11 @@
-#React Redux Tutorial
+# React Redux Tutorial
 
 The purpose of this repository is to create a progressive sample project that demonstrates how to work with redux and implement a react-redux project.
 
 You will need nodejs installed for this tutorial.
 
 
-##Table of Contents
+## Table of Contents
 
 - Versions of Software Used For this Tutorial
 - Structure of the Tutorial
@@ -14,7 +14,7 @@ You will need nodejs installed for this tutorial.
 - Overview of Tutorial Parts
 
 
-##Versions of Software Used For this Tutorial
+## Versions of Software Used For this Tutorial
 
 node:           12.16.2
 react:          16.13.1
@@ -26,17 +26,17 @@ redux-saga:     1.1.3
 Note: at the writing of this tutorial, these were all the latest versions available (05/10/2020)
 
 
-##Structure of the Tutorial
+## Structure of the Tutorial
 The tutorial is divided into parts, each part is in it's own folder.
 Any new part, unless otherwise specified will build on the previous part, there is nothing self-contained.
 
 
-##Tutorial Breakdown
+## Tutorial Breakdown
 
 - Part 01 - Understanding Redux
 
 
-##Installation Instructions valid for all parts of the tutorial
+## Installation Instructions valid for all parts of the tutorial
 
 1) npx create-react-app xxxx <- React app scaffolding
 2) cd directory to xxxx
@@ -48,11 +48,13 @@ Any new part, unless otherwise specified will build on the previous part, there 
 - npm i redux-saga --save-dev
 
 
-##Overview of Tutorial Parts
+## Overview of Tutorial Parts
 
 
-###Part 01 - Understanding Redux
+### Part 01 - Understanding Redux
+
 folder: part_01_understanding_redux
+
 Live Link: http://www.claudegauthier.net/tutorials/react-redux/part_01_understanding_redux/
 
 This gives you a high level understanding of Redux, we take a sample React app based on create-react-app and create a very basic but comprehensive scenario were you:
