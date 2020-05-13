@@ -13,7 +13,7 @@ function App() {
           <li>Check the store's state using <code>store.getState()</code> todolist should be empty.</li>
           <li>
             Add a subscript method that will console.log a message when we dispatch an action<br/>
-            <code>store.subscribe(() => console.log('Added to the Redux Store!'));</code>
+            <code>store.subscribe(() => console.log('Count of Entries: ' + store.getState().todolist.length));</code>
           </li>
           <li>
             Add the following entries using the store.dispatch() method with the addTodoitem action.<br/>
