@@ -1,5 +1,5 @@
 import {  ADD_TODOITEM } from "../constants/action-types";
 
-export function addTodoitem(payload) {
+export function addTodoItem(payload) {
     return { type: ADD_TODOITEM, payload };
 }
