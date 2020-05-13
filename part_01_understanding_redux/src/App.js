@@ -17,9 +17,9 @@ function App() {
           </li>
           <li>
             Add the following entries using the store.dispatch() method with the addTodoitem action.<br/>
-            <code>store.dispatch(addTodoitem({"{ title: 'Get Up', id: 1 }"})</code><br/>
-            <code>store.dispatch(addTodoitem({"{ title: 'Survive', id: 2 }"})</code><br/>
-            <code>store.dispatch(addTodoitem({"{ title: 'Go To Bed', id: 3 }"})</code>
+            <code>store.dispatch(addTodoitem({"{ todoItem: 'Get Up', id: 1 }"})</code><br/>
+            <code>store.dispatch(addTodoitem({"{ todoItem: 'Survive', id: 2 }"})</code><br/>
+            <code>store.dispatch(addTodoitem({"{ todoItem: 'Go To Bed', id: 3 }"})</code>
           </li>
           <li>Check the store's state again using <code>store.getState()</code> and todolist should have 3 objects in its array.</li>
         </ol>
